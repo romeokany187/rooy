@@ -1,11 +1,11 @@
 import React from 'react'
-import logo1 from '../assets/images/logos/logo_home.png'
+import logo1 from '../assets/images/logos/SOSO_5.png'
 
 const NavBar = (
     {className}
 ) => {
   return (
-    <div className={`bg-secondary bg-opacity-95 shadow-lg px-[8rem] py-4 flex justify-center m-auto items-center ${className} `}>
+    <div className={`bg-secondary bg-opacity-95 w-full shadow-lg px-[8rem] py-4 flex justify-center m-auto items-center ${className} `}>
         <div className="logo w-[5%] "><img src={logo1} alt="" /></div>
         <div className="menu flex flex-row gap-10 w-[75%] justify-end items-center">
             <div className="text-white text-[1rem] cursor-pointer ">Home</div>
